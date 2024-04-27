@@ -6,9 +6,9 @@ import Filters from './Filter/Filters';
 import List from './List/List';
 
 // store
-import { useGetGamesQuery } from './Store/Api/data';
-import { setPage } from './Store/Slice/dataSlice';
-import { useAppDispatch, useAppSelector } from './Store/store';
+import { useGetGamesQuery } from '../Store/Api/data';
+import { setPage } from '../Store/Slice/dataSlice';
+import { useAppDispatch, useAppSelector } from '../Store/store';
 
 export default function App() {
     // hooks

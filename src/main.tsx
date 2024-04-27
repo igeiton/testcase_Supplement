@@ -1,7 +1,16 @@
+// react
 import ReactDOM from 'react-dom/client';
-import App from './App.tsx';
+
+// redux
 import { Provider } from 'react-redux';
+
+// components
+import App from './App/App.tsx';
+
+// store
 import store from './Store/store.ts';
+
+// styles
 import './Styles/main.css';
 
 const root = document.getElementById('root');

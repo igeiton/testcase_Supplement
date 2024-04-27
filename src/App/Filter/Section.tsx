@@ -12,8 +12,8 @@ import {
 import { styled } from '@mui/system';
 
 // store
-import { addFilter, removeFilter, setPage } from '../Store/Slice/dataSlice';
-import { useAppDispatch, useAppSelector } from '../Store/store';
+import { addFilter, removeFilter, setPage } from '../../Store/Slice/dataSlice';
+import { useAppDispatch, useAppSelector } from '../../Store/store';
 
 interface IProps {
     children: string;

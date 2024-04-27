@@ -9,8 +9,8 @@ import { getFilters } from '../Filter/getFilters';
 import Game from './Game';
 
 // store
-import { setMaxPage } from '../Store/Slice/dataSlice';
-import { useAppDispatch, useAppSelector } from '../Store/store';
+import { setMaxPage } from '../../Store/Slice/dataSlice';
+import { useAppDispatch, useAppSelector } from '../../Store/store';
 
 export default function List({ data }: any) {
     // hooks

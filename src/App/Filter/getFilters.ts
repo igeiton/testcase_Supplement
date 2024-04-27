@@ -1,4 +1,4 @@
-import { IFilters } from '../Store/Slice/dataSlice';
+import { IFilters } from '../../Store/Slice/dataSlice';
 
 export const getFilters = (data: any, filters: IFilters): any => {
     // copy of data

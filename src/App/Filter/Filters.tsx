@@ -11,8 +11,8 @@ import {
 import Section from './Section';
 
 // store
-import { clearFilters, setPage } from '../Store/Slice/dataSlice';
-import { useAppDispatch } from '../Store/store';
+import { clearFilters, setPage } from '../../Store/Slice/dataSlice';
+import { useAppDispatch } from '../../Store/store';
 
 export default function Filters() {
     // hooks
